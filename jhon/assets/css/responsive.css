@@ -1,0 +1,148 @@
+/* Medium Layout: 1280px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    
+}
+/* Tablet Layout: 768px. */
+@media (min-width: 768px) and (max-width: 991px) { 
+	 
+	.single-table{
+		margin-bottom:15px;
+	} 
+    .single-brand .col-md-2.col-sm-6{
+		margin-bottom:15px;
+	}
+	.section-bg-1 .col-md-6.col-md-offset-6{
+		z-index:1;
+	}
+	.vedio-area-bg{
+		width:100%;
+	}
+	.vedio-area .col-md-6.col-md-offset-6 {
+		margin-top: 110px;
+	}
+	.vedio-play-btn {  
+		top: 110px; 
+		left: 44%;
+	}
+	.newsletter-inner h4{
+		font-size: 18px;
+	}
+	.mixitup-list .mix{
+		width:48%;
+	}
+	.progress-info h4 {
+		padding-top: 20px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media (max-width: 767px) {  
+	.container {
+		width: 300px;
+	}
+	.section-title p{
+		width: 100%;
+		left: 0px;
+		top: 0px;
+		padding: 0px 0px; 
+	}
+	.mobile-menu-area{
+		display:block !important;
+	} 
+	.header-text h1 {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .header-text p:before {
+    right: 20px;
+    }
+    .header-text p:after {
+        left: 6px;
+    } 
+	.edu-icon i{
+		line-height:87px;
+		padding-left:2px;
+		font-size:18px	
+	}
+	.single-edu-content{
+		padding-left:10px;
+	}
+	
+	.single-edu-content h5,h4{
+		font-size:14px;
+	}
+	
+	.single-edu-content span{
+		font-size:10px;
+	} 
+	.vedio-area-bg{
+		width:100%;
+	}
+	.vedio-area .col-md-6.col-md-offset-6 {
+		margin-top: 100px;
+	}
+	.vedio-play-btn {  
+		top: 115px; 
+		left: 30%;
+	} 
+	.section-bg-1 .col-md-6.col-md-offset-6{
+		z-index:1;
+	}  
+    .sent input[type="submit"]{
+		padding:5px 20px;
+		margin-bottom:20px;
+	} 
+	.portfolio-menu ul li{
+		font-size:14px;
+		padding: 6px 6px;
+	}
+	.mixitup-list .mix{
+		width:100%;
+	}
+	.register-form{
+		margin-bottom:20px;
+	}
+	.newsletter-inner h4{
+		font-size: 18px;
+	}
+	.table-cell h2{
+		font-size:20px;
+	}
+	.about-mecontent{
+		padding-top:50px;
+		padding-left:0px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {  
+	.container {
+        width: 450px
+    }  
+	.single-table{
+		margin-bottom:15px;
+	}
+	.vedio-area-bg{
+		width:100%;
+	}
+	.vedio-area .col-md-6.col-md-offset-6 {
+		margin-top: 100px;
+	}
+	.vedio-play-btn {  
+		top: 100px; 
+		left: 38%;
+	}
+	.section-bg-1 .col-md-6.col-md-offset-6{
+		z-index:1;
+	}
+	.portfolio-menu ul li{
+		font-size:14px;
+		padding: 6px 6px;
+	}
+	.mixitup-list .mix{
+		width:48%;
+	} 
+	.table-cell h2{
+		font-size:20px;
+	}
+}
+
+ 
